@@ -17,18 +17,22 @@ public class Kranke {
     }
 
     public int getMrn() {
+
         return mrn;
     }
 
     public String getName() {
+
         return name;
     }
 
     public int getAge() {
+
         return age;
     }
 
     public String getDh() {
+
         return dh;
     }
 
