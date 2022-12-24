@@ -14,7 +14,7 @@ public class Main {
 
         System.out.println("【患者一覧】");
 
-        krankeList.forEach(Kranke -> System.out.println("No." + Kranke.getMRN() + " 氏名:" + Kranke.getName() + " 年齢:" + Kranke.getAge() + "　担当衛生士:" + Kranke.getDH()));
+        krankeList.forEach(Kranke -> System.out.println("No." + Kranke.getMrn() + " 氏名:" + Kranke.getName() + " 年齢:" + Kranke.getAge() + "　担当衛生士:" + Kranke.getDh()));
 
         System.out.println();
 
@@ -22,7 +22,7 @@ public class Main {
 
         krankeList.forEach(Kranke -> {
             if (Kranke.getAge() <= 18) {
-                System.out.println("No." + Kranke.getMRN() + " 氏名:" + Kranke.getName() + " 年齢:" + Kranke.getAge() + "　担当衛生士:" + Kranke.getDH());
+                System.out.println("No." + Kranke.getMrn() + " 氏名:" + Kranke.getName() + " 年齢:" + Kranke.getAge() + "　担当衛生士:" + Kranke.getDh());
             }
         });
 
